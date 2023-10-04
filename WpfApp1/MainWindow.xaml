@@ -7,6 +7,17 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <TextBlock Text="Авторизация" FontSize="20" HorizontalAlignment="Center"/>
+        <TextBlock Text="Логин" FontSize="20" Margin="10,38,637,132"/>
+        <TextBlock Text="Пароль" FontSize="20" Margin="10,125,649,38"/>
+        <TextBox FontSize="20" Background="LightGoldenrodYellow" Margin="10,78,476,108"/>
+        <TextBox FontSize="20" Background="LightGreen" Margin="10,163,470,21"/>
+        <Button x:Name="wtf1" Content="Авторизация" FontSize="25" Background="Aqua" Margin="258,22,258,139" Grid.Row="1"/>
+        <Button x:Name="wtf2" Content="Регистрация" FontSize="25" Background="Azure" Margin="258,99,258,64" Grid.Row="1"/>
 
     </Grid>
 </Window>
